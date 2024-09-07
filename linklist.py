@@ -56,10 +56,6 @@ class LinkedList:
                 i += 1
             return temp.data
             
-        
-
-    
-
     def pop(self, index):
         if index >= self.size:
             print("Invalid Index") 
@@ -86,8 +82,7 @@ class LinkedList:
             current.next = prev
             prev = current
         self.head = current
-            
-            
+                   
     def length(self):
         return self.size
     
