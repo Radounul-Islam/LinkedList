@@ -90,10 +90,7 @@ class LinkedList:
             
     def length(self):
         return self.size
-
-            
-        
-
+    
     def __str__(self):
         ls = []
         temp = self.head
@@ -102,32 +99,4 @@ class LinkedList:
             temp = temp.next
 
         return str(ls)
-    
-
-        
-
-def main() -> None:
-    ls = LinkedList()
-    arr = [34, 34, 3, 56, 45, 3, 6, 45, 34, 45, 645, 34, 5]
-    for i in arr:
-        ls.append(i)
-    ls.pop(0)
-    ls.pop(0)
-    ls.pop(0)
-    ls.pop(0)
-    for i in range(ls.size):
-        print(ls.get(i))
-    
-
-
-
-
-   
-    
-if __name__ == '__main__':
-    main()
-
-
-
-        
-        
+ 
